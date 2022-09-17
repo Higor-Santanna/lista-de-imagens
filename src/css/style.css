@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;800&family=Lato:ital,wght@0,300;0,400;1,300;1,400;1,700;1,900&family=Public+Sans:wght@300;700&display=swap');
+
+html{
+    font-family: 'Public Sans', sans-serif;
+}
+
+.centralizacao-imagens-pagina .alinhamento-das-imagens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    gap: 20px;
+}
+
+.alinhamento-das-imagens li{
+    width: 335px;
+    height: 431px;
+}
+
+.alinhamento-das-imagens img{
+    width: 100%;
+}
+
+.alinhamento-texto{
+    position: relative;
+}
+
+.alinhamento-texto h2{
+    position: absolute;
+    bottom: 68px;
+    left: 18px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.alinhamento-texto h3{
+    position: absolute;
+    bottom: 43px;
+    left: 18px;
+    font-size: 17px;
+    font-weight: 300;
+    color: #fff;
+}
